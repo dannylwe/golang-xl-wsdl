@@ -15,5 +15,5 @@ gowsdl -i calculator.wsdl Reading File ./calculator.wsdl
 `generates in folder "myservice". `
 
 ## Run project
-`cd calc`
+`cd calc`  
 `go run main.go`

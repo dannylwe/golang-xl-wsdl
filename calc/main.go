@@ -16,6 +16,9 @@ type AddResponse struct {
 }
 
 func main() {
+	// with options
+	// client := soap.NewClient("http://www.dneonline.com/calculator.asmx?WSDL", soap.Option(soap.WithHTTPHeaders(headers)))
+
 	client := soap.NewClient("http://www.dneonline.com/calculator.asmx?WSDL")
 	service := gen.NewCalculatorSoap(client)
 	reply, err := service.Add(&gen.Add{IntA: 2, IntB: 5})
