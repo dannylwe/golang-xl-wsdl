@@ -13,3 +13,7 @@ go get github.com/hooklift/gowsdl/...
 #### generate methods and structures to implement SOAP client and server based on wsdl
 gowsdl -i calculator.wsdl Reading File ./calculator.wsdl
 `generates in folder "myservice". `
+
+## Run project
+`cd calc`
+`go run main.go`
